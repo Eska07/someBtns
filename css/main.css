@@ -1,0 +1,35 @@
+body{
+	background: url(../img/vintage-concrete.png)center;
+}
+.container{
+	width: 80%;
+	margin:40px auto;
+}
+.button{
+	display: inline-block;
+	width:150px;
+	height:150px;
+	margin: 10px 10px;
+	border-radius: 50%;
+	background:url(../img/vintage-concrete.png)center;
+	box-shadow:3px 0 15px black , inset 2px 0 15px white;
+	cursor: pointer;  
+	position: relative;
+}
+.button:hover{
+	box-shadow:inset 3px 0 12px black , 2px 0 15px white; 
+}
+.fa.fa-car,.fa.fa-fighter-jet,.fa.fa-rocket,.fa.fa-subway,.fa.fa-truck,.fa.fa-ship{
+	font-size: 40px;
+}
+.iconStyle{
+	position: absolute;
+	top:55px;
+	left:55px;
+	opacity: 0.5;
+	transition: all 3s;
+}
+.iconStyle:hover{
+	opacity: 1;
+	top:65px;
+}
